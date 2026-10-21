@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class BranchApplication {
 	  String c = "git";
 	  int x = 150;
+	boolean isEmp = true;
 	public static void main(String[] args) {
 		SpringApplication.run(BranchApplication.class, args);
 	}
